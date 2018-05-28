@@ -1,12 +1,11 @@
-function orden_comida () {
-    let menu = ("ceviche","tacos_al_pastor","empanada_chilena","hamburguesa");
-      for (let i = 0; i < menu ; i++) {
-        console.log(menu);
-     }
-}
-orden_comida();
+window.onload = function orden_comida () { //INICIO - FUNCION
+    const menu = ("ceviche","tacos_al_pastor","empanada_chilena","hamburguesa"); //VAR MENU
+     for (let i = 0; i = menu.length; i++) { //FOR CREA EL BUCLE - LET I DESDE 0 ; I < LONGITUG MENU ; I SUMA 1
+      console.log(menu[i]); //MUESTRA MENSAJE EN LA CONSULA
+    } // CIERRE FOR   
+} // CIERRE FUNCION
 
-/*2. ORDENANDO COMIDA
+/*INSTRUCCIONES
 Imagina que estás pidiendo comida en un restaurante. 
 Tu plato favorito es ceviche, así que lo elegirías si está en el menú. 
 Si no hay ceviche, elegirías tacos al pastor. 
